@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html class="container-fluid">
+<head>
+  <title>Random quote generator</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" href="quote.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="quote.js"></script>
+</head>
+
+<body>
+  <section class="quotes">
+    <div class="text">
+      <span>"</span><h1></h1>
+      <h2 class="author"></h2>
+    </div>
+
+    <div class="buttons">
+        <ul class="links list-inline">
+        <li>
+          <a id="twitter" href="#" title="Tweeter">
+            <span class="fa-stack fa-2x icon-twitter">
+              <i class="fa fa-square fa-stack-2x button"></i>
+              <i class="fa fa-twitter fa-stack-1x"></i>
+            </span>
+          </a>
+        </li>
+        <li>
+          <a id="weibo" href="http://weibo.com" title="Weibo">
+            <span class="fa-stack fa-2x icon-weibo">
+              <i class="fa fa-square fa-stack-2x button"></i>
+              <i class="fa fa-weibo fa-stack-1x"></i>
+            </span>            
+          </a>
+        </li>
+      </ul>
+      <button id="new-quote" class="btn btn-block">
+        <p>New Quote</p>
+      </button>
+      </div>
+  </section>
+  <footer>
+
+    <p>Random Quote Generator</p>
+    <p>by Robby</p>
+  </footer>
+</body>
+</html>
